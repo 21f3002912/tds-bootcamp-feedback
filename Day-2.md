@@ -1,30 +1,39 @@
-[Before Day-2]
-
-I was familiar with basic terminal usage such as opening a terminal and running simple commands. However, I did not clearly understand how Linux locates commands using the PATH variable, how shell scripts are executed, or how environment variables are inherited between processes.
+---
 
 ---
+
+--- Before Day-2 ---
+I already knew basic terminal commands such as `ls`, `cd`, and `pwd`, but I did not fully understand how Linux locates commands through the PATH variable, how shell scripts are executed, or how environment variables persist across terminal sessions.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Day-2 Checklist
 
-* [x] I understand what a shell is and how to identify my current shell
-* [x] I know what the PATH environment variable does
-* [x] I understand how Linux searches for commands through PATH directories
-* [x] I can check command exit codes using `echo $?`
-* [x] I understand common exit status meanings such as success and failure
-* [x] I can use `pwd` and `ls -l` to inspect directories and files
-* [x] I can create and execute a shell script
-* [x] I understand file permissions and the purpose of `chmod`
-* [x] I know how `.bashrc` is used to configure shell startup behavior
-* [x] I understand the purpose of `export` and environment variables
+* [x] I understand what `PATH` is and why commands like `python` work without full paths
+* [x] I can navigate the filesystem without clicking — using `cd`, `ls`, and `pwd` only
+* [x] I can read, search, and inspect files using `cat`, `head`, `tail`, `grep`, and `wc`
+* [x] I can edit a file using `nano` (open, edit, save, exit)
+* [x] I understand pipes (`|`) and redirection (`>`, `>>`, `2>`) and can chain commands
+* [x] I can set an environment variable in `.bashrc` and apply it with `source ~/.bashrc`
+* [x] I know the difference between `export VAR=value` (available to child processes) and just `VAR=value` (shell-local)
+
+--- After Day-2 ---
+I learned how Linux searches for commands using the PATH variable, how shell scripts are executed, how file permissions affect execution, and how `.bashrc` can be used to configure a shell environment. I also gained a better understanding of environment variables, command chaining, and text-processing utilities commonly used in Linux.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+--- Feedback (Suggestions for the TDS Team) ---
+The demonstrations explaining PATH resolution and `.bashrc` were especially useful because they helped connect Linux concepts with practical usage. More guided exercises involving shell scripts, grep, pipes, and environment variables would make it easier for beginners to gain confidence with command-line workflows.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ---
 
-[After Day-2]
-
-I learned how the Linux shell interprets commands, how PATH-based command resolution works, and how environment variables influence program execution. I also gained practical experience with shell scripting, file permissions, startup configuration through `.bashrc`, and troubleshooting using exit status codes.
-
 ---
 
-[Feedback]
+Personal Notes:
 
-The live demonstrations of PATH resolution, shell scripts, and `.bashrc` modifications were particularly helpful because they showed how Linux behaves internally rather than only presenting commands to memorize. Additional hands-on exercises involving shell scripts and environment variables would further strengthen understanding.
+* PATH is a list of directories searched for executable commands.
+* `echo $?` shows the exit status of the previous command.
+* `chmod +x` grants execute permission to a file.
+* `.bashrc` runs when a new shell session starts.
+* `export` makes variables available to child processes.
+* Commands can be combined using pipes and redirection.
+
