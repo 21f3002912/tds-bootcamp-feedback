@@ -7,6 +7,7 @@ I already knew basic Python programming and had used GitHub repositories before.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Day-1 Checklist
+## Day-1 Checklist
 
 * [x] I can open a Linux terminal and recognize the shell prompt (`user@machine:~$`)
 * [x] I can run `python --version`, `git --version`, and `uv --version` without errors
@@ -18,6 +19,7 @@ I already knew basic Python programming and had used GitHub repositories before.
 * [x] I can navigate to the C and D drives within WSL
 * [x] I understand the difference between `>` (overwrite) and `>>` (append)
 * [x] I have a GitHub account and have created the `tds-bootcamp` repository
+
 
 --- After Day-1 ---
 I learned how WSL acts as a bridge between Windows and Linux, how Linux organizes files and directories differently from Windows, how hidden files work, and how terminal commands can be used to efficiently navigate and manage the filesystem. I also gained a better understanding of relative versus absolute paths and basic shell redirection.
